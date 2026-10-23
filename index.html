@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lumetra | Investigación de Mercado</title>
+    <style>
+      :root {
+        --paper: #f4f1ee;
+        --ink: #1f3a4d;
+        --muted: #5d6d78;
+        --accent: #2b516d;
+        --line: rgba(31, 58, 77, 0.2);
+      }
+
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        background: var(--paper);
+        color: var(--ink);
+        font-family: Georgia, "Times New Roman", serif;
+      }
+
+      .page {
+        max-width: 980px;
+        margin: 0 auto;
+        padding: 42px 42px 60px;
+      }
+
+      .hero {
+        text-align: center;
+        padding-top: 10px;
+      }
+
+      h1 {
+        margin: 0;
+        font-size: clamp(3.2rem, 4.8vw, 6.2rem);
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        color: var(--accent);
+      }
+
+      .subtitle {
+        margin-top: 18px;
+        font-size: clamp(1.4rem, 2vw, 2.8rem);
+        font-weight: 700;
+        letter-spacing: 0.02em;
+        text-transform: uppercase;
+      }
+
+      .tagline {
+        margin-top: 18px;
+        font-style: italic;
+        font-size: clamp(1.1rem, 1.6vw, 1.9rem);
+        color: var(--ink);
+        font-weight: 500;
+      }
+
+      .claim {
+        margin-top: 28px;
+        font-size: clamp(1rem, 1.4vw, 1.35rem);
+        color: var(--ink);
+        font-style: italic;
+      }
+
+      .divider {
+        margin: 36px auto 0;
+        max-width: 730px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 18px;
+        color: var(--muted);
+        text-transform: uppercase;
+        font-size: 1.1rem;
+        letter-spacing: 0.12em;
+        font-weight: 700;
+      }
+
+      .divider::before,
+      .divider::after {
+        content: "";
+        display: block;
+        width: 38%;
+        height: 1px;
+        background: var(--line);
+      }
+
+      .content {
+        margin-top: 36px;
+      }
+
+      .section {
+        margin-top: 22px;
+      }
+
+      h2 {
+        margin: 0 0 14px;
+        font-size: clamp(1.8rem, 2.4vw, 3.1rem);
+        line-height: 1.15;
+        color: var(--ink);
+      }
+
+      p, li {
+        font-size: clamp(1.08rem, 1.5vw, 1.38rem);
+        line-height: 1.7;
+        margin: 0;
+        color: var(--ink);
+      }
+
+      .section + .section {
+        margin-top: 38px;
+      }
+
+      ul {
+        padding-left: 28px;
+        margin: 10px 0 0;
+      }
+
+      ul li + li {
+        margin-top: 4px;
+      }
+
+      .number {
+        color: var(--ink);
+      }
+
+      .ref {
+        margin-top: 18px;
+        font-size: 0.9rem;
+        color: rgba(31, 58, 77, 0.8);
+        text-align: right;
+      }
+
+      @media (max-width: 680px) {
+        .page {
+          padding: 28px 22px 48px;
+        }
+        .divider {
+          letter-spacing: 0.06em;
+          font-size: 0.8rem;
+        }
+        .section {
+          margin-top: 18px;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main class="page">
+      <header class="hero">
+        <h1>LUMETRA</h1>
+        <div class="subtitle">INVESTIGACIÓN DE MERCADO</div>
+        <div class="tagline">Ciberseguridad e inteligencia artificial</div>
+        <div class="claim">Protección digital para personas, empresas e instituciones en Ecuador</div>
+
+        <div class="divider">Innovación • Prevención • Confianza digital</div>
+      </header>
+
+      <section class="content">
+        <article class="section">
+          <h2><span class="number">1.</span> ¿Qué es Lumetra?</h2>
+          <p>
+            Lumetra es una propuesta de ciberseguridad enfocada en ayudar a personas y organizaciones a proteger su
+            información digital y prevenir ataques cibernéticos. Su enfoque busca aprovechar la inteligencia artificial
+            para identificar amenazas con mayor rapidez y promover una protección más preventiva.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2><span class="number">2.</span> Problema identificado</h2>
+          <p>
+            En Ecuador, muchas empresas y usuarios no cuentan con herramientas avanzadas de seguridad digital. Esto puede
+            aumentar su exposición al robo de información, los fraudes y otros ataques cibernéticos. La falta de
+            conocimientos especializados y de inversión en protección tecnológica dificulta que algunas PYMES se preparen
+            adecuadamente frente a estas amenazas.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2><span class="number">3.</span> Público objetivo</h2>
+          <p>Lumetra está dirigida principalmente a:</p>
+          <ul>
+            <li>Pequeñas y medianas empresas (PYMES).</li>
+            <li>Emprendedores y negocios digitales.</li>
+            <li>Instituciones educativas.</li>
+            <li>Personas que manejan información importante en internet.</li>
+          </ul>
+        </article>
+
+        <article class="section">
+          <h2><span class="number">5.</span> Competencia y diferenciación</h2>
+          <p>
+            En el mercado existen proveedores de tecnología y servicios de seguridad digital. Lumetra busca diferenciarse
+            mediante un enfoque preventivo apoyado en inteligencia artificial, con el objetivo de identificar señales de
+            riesgo de forma oportuna y facilitar la respuesta ante posibles amenazas.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2><span class="number">6.</span> Oportunidad de negocio</h2>
+          <p>
+            El aumento de los riesgos digitales y la expansión de las herramientas de inteligencia artificial hacen que la
+            ciberseguridad sea cada vez más relevante. Lumetra puede explorar oportunidades entre empresas, instituciones
+            educativas y emprendedores que necesiten proteger sus sistemas y datos.
+          </p>
+        </article>
+
+        <article class="section">
+          <h2><span class="number">7.</span> Conclusión</h2>
+          <p>
+            La investigación identifica una oportunidad para desarrollar soluciones de ciberseguridad en Ecuador. Lumetra
+            busca responder a esta necesidad con un enfoque innovador y preventivo que ayude a reducir riesgos, proteger
+            la información y fortalecer la confianza digital.
+          </p>
+        </article>
+      </section>
+    </main>
+  </body>
+</html>
